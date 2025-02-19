@@ -45,7 +45,7 @@ export default function RootLayout({
         <div className="d-flex justify-content-between align-items-center p-3">
 
           <div className="title" style={{cursor: 'pointer'}} onClick={() => router.push(`/`)}>
-            <h4>Aniverse</h4>
+            <h4>Hobaz Anime</h4>
           </div>
 
           <form onSubmit={(e) => { e.preventDefault(); searchAnime() }}>
